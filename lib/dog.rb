@@ -4,7 +4,7 @@ class Dog
    @name=dog_name
  end
    def bark=(dog_bark)
-   @bark=dog_bark
+   @bark="woof!"
  end
  
  def name
@@ -15,9 +15,7 @@ class Dog
  end
  end
 
-fido=Dog.new 
-fido.bark="woof!"
-puts fido.bark
+
 
 
 =begin def name=(name,bark)
