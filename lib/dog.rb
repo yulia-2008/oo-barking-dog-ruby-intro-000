@@ -4,7 +4,7 @@ class Dog
     @name=name
     @bark=bark
   end
-  def name=(name,bark)
+=begin def name=(name,bark)
   @name=name
   @bark=bark
 end
@@ -20,8 +20,7 @@ fido=Dog.new("Fido", "woof!")
 fido.name
 fodo.bark
 
-
-=begin def name=(dog_name)
+ def name=(dog_name)
   @name=dog_name
 end
 def bark=(bark)
