@@ -18,8 +18,8 @@ def bark(bark)
 end
  end
 
-fido=Dog.new 
-fido.name="Fido"
+fido=Dog.new("fido")
+fido.name
 fodo.bark="Woof!"
 
 
