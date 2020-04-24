@@ -4,14 +4,17 @@ class Dog
     @name=name
     @bark=bark
   end
+  
   def name=(dog_name)
   @name=dog_name
 end
 def bark=(bark)
   @bark=bark
 end
-  
-end
+ end
+
+
+
 
 =begin def name=(dog_name)
   @name=dog_name
