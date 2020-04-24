@@ -18,9 +18,9 @@ def bark(bark)
 end
  end
 
-fido=Dog.new("fido")
+fido=Dog.new("fido", "Woof!")
 fido.name
-fodo.bark="Woof!"
+fodo.bark
 
 
 =begin def name=(dog_name)
