@@ -5,7 +5,7 @@ class Dog
     @bark=bark
   end
 end
-
+fido=Dog.new("Fido", "woof!")
 
 
 =begin def name=(name,bark)
