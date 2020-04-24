@@ -17,6 +17,7 @@ class Dog
 
 fido=Dog.new 
 fido.bark="woof!"
+puts fido.bark
 
 
 =begin def name=(name,bark)
