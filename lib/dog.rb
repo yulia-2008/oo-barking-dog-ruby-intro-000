@@ -5,6 +5,9 @@ class Dog
     @bark=bark
   end
 end
+
+
+
 =begin def name=(name,bark)
   @name=name
   @bark=bark
